@@ -13,12 +13,12 @@ import ProjectsOverlay from "../projects/ProjectsOverlay";
     <div class="page">
         <div class="row header">
             <div class="content">
-                <h1 class="title">Hey, I'm James</h1>
+                <h1 class="title">Hey, I'm Justin</h1>
                 <div class="subtitle">
                     Junior designer curious about creative experiences and helpful products &mdash;
                     Based in Vancouver &mdash;
                     Studying at UBC &mdash;
-                    Available for intership
+                    Available for internship
                 </div>
 
                 <!-- ? -->
@@ -76,7 +76,9 @@ import ProjectsOverlay from "../projects/ProjectsOverlay";
     }
 
     h1 {
-        font-size: x-large;
+        font-size: 78px;
+        color: var(--primary);
+        margin-bottom: 24px;
     }
 
     .selfie {
@@ -124,10 +126,11 @@ import ProjectsOverlay from "../projects/ProjectsOverlay";
         }
 
         .row {
-            /* ? */
+            display: flex;
+            flex-direction: row;
         }
         .content {
-            /* ? */
+            flex: 2;
         }
 
         .side-col {
